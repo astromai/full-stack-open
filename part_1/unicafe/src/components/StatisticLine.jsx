@@ -2,7 +2,10 @@
 const StaticLine = ({ title, value}) => {
     
     return (
-        <li> {title}: {value} </li>
+        <tr> 
+            <td>{title}:</td>  
+            <td>{value}</td>
+        </tr>
     )
 }
 
